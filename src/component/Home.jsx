@@ -1,3 +1,4 @@
+import React from 'react';
 import home from "../assets/images/home.png"
 const Home = () => {
   return (

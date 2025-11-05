@@ -1,54 +1,25 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
-import { Menu, X } from "lucide-react";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
 
 const Navbar = () => {
-  const [open, setOpen] = useState(false);
-
   return (
-    <nav className="bg-white shadow-md sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <Link to="/" className="text-3xl font-extrabold text-blue-700 tracking-wide">
-          🐾 Pupp’s
-        </Link>
+    <header className="app-navbar">
+      <div className="nav-inner">
+        <div className="brand">
+          <Link to="/" className="brand-link">Pupp's 🐾 </Link>
+        </div>
 
-        {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-8 text-lg font-medium text-gray-700">
-          {["Home", "About", "Services", "Contact"].map((item) => (
-            <li key={item}>
-              <Link
-                to={`/${item === "Home" ? "" : item.toLowerCase()}`}
-                className="hover:text-blue-600 transition-colors duration-300"
-              >
-                {item}
-              </Link>
-            </li>
-          ))}
-        </ul>
-
-        {/* Mobile Toggle */}
-        <button onClick={() => setOpen(!open)} className="md:hidden text-blue-700">
-          {open ? <X size={28} /> : <Menu size={28} />}
-        </button>
+        <nav className="nav-links" aria-label="Primary">
+          <ul>
+            <li><Link to="/home">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/services">Services</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+          </ul>
+        </nav>
       </div>
-
-      {/* Mobile Menu */}
-      {open && (
-        <ul className="md:hidden bg-white shadow-lg flex flex-col items-center py-4 space-y-4 text-gray-700 font-medium border-t">
-          {["Home", "About", "Services", "Contact"].map((item) => (
-            <li key={item}>
-              <Link
-                to={`/${item === "Home" ? "" : item.toLowerCase()}`}
-                onClick={() => setOpen(false)}
-                className="hover:text-blue-600 transition"
-              >
-                {item}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      )}
-    </nav>
+    </header>
   );
 };
 

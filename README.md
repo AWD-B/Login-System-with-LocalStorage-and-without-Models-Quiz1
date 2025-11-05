@@ -1,3 +1,35 @@
+# Full-Stack React Application
+
+A full-stack web application with React frontend and Node.js/Express backend with user authentication.
+
+## Frontend
+- React + Vite
+- Components: Signup, Login, Dashboard, Home, About, Services, Contact
+
+## Backend
+- Node.js
+- Express.js
+- MongoDB
+- Nodemon for development
+
+## Setup Instructions
+
+### Backend Setup
+1. Navigate to backend directory: `cd backend`
+2. Install dependencies: `npm install`
+3. Start server: `npm run dev`
+
+### Frontend Setup  
+1. Install dependencies: `npm install`
+2. Start development server: `npm run dev`
+
+### Environment Variables
+Create a `.env` file with:
+- MongoDB connection string
+- JWT secret key
+- Port numbers
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

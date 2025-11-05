@@ -1,0 +1,33 @@
+.dashing {
+  background: rgb(3, 152, 252);
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: calc(100vh - 17vh - 60px); /* viewport - navbar - footer */
+}
+
+.dashing h1 {
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.dashing p {
+  color: #4b5563;
+  margin-bottom: 1rem;
+}
+
+.dashing button {
+  padding: 0.75rem 1.5rem;
+  background: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.dashing button:hover {
+  background: #dc2626;
+}
