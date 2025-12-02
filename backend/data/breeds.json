@@ -1,0 +1,162 @@
+{
+  "breeds": [
+    {
+      "id": 1,
+      "name": "Golden Retriever",
+      "species": "dog",
+      "description": "Friendly, intelligent and devoted. Known for their gentle temperament.",
+      "characteristics": ["Friendly", "Intelligent", "Devoted", "Trustworthy", "Confident"],
+      "size": "Large",
+      "weight": {
+        "male": "29-34 kg",
+        "female": "25-29 kg"
+      },
+      "height": {
+        "male": "56-61 cm", 
+        "female": "51-56 cm"
+      },
+      "lifeSpan": "10-12 years",
+      "group": "Sporting",
+      "origin": "Scotland",
+      "temperament": "Friendly, intelligent, devoted",
+      "exercise": "High",
+      "grooming": "Moderate",
+      "training": "Easy",
+      "goodWith": ["Children", "Families", "Other dogs"],
+      "health": ["Hip dysplasia", "Certain heart conditions", "Eye disorders"],
+      "images": ["🐕", "🦮"],
+      "popularity": 3,
+      "identificationFeatures": {
+        "coat": "Dense, water-repellent outer coat with thick undercoat",
+        "color": ["Golden", "Cream"],
+        "ears": "Floppy, medium-sized",
+        "tail": "Long, feathery"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Siamese Cat",
+      "species": "cat", 
+      "description": "Vocal, social and intelligent feline with striking blue eyes.",
+      "characteristics": ["Vocal", "Social", "Intelligent", "Playful", "Affectionate"],
+      "size": "Medium",
+      "weight": {
+        "male": "4-6 kg",
+        "female": "3-4 kg"
+      },
+      "lifeSpan": "15-20 years",
+      "group": "Asian",
+      "origin": "Thailand",
+      "temperament": "Vocal, social, intelligent",
+      "exercise": "Moderate",
+      "grooming": "Low",
+      "training": "Easy",
+      "goodWith": ["Families", "Children", "Other cats"],
+      "health": ["Dental issues", "Respiratory conditions", "Eye problems"],
+      "images": ["🐈", "😸"],
+      "popularity": 4,
+      "identificationFeatures": {
+        "coat": "Short, fine, glossy",
+        "color": ["Seal point", "Blue point", "Chocolate point", "Lilac point"],
+        "ears": "Large, pointed",
+        "eyes": "Blue, almond-shaped",
+        "body": "Sleek, muscular"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Labrador Retriever",
+      "species": "dog",
+      "description": "Outgoing, even-tempered and gentle. America's most popular breed.",
+      "characteristics": ["Outgoing", "Even-tempered", "Gentle", "Athletic", "Kind"],
+      "size": "Large",
+      "weight": {
+        "male": "29-36 kg",
+        "female": "25-32 kg"
+      },
+      "height": {
+        "male": "57-62 cm",
+        "female": "55-60 cm"
+      },
+      "lifeSpan": "10-12 years", 
+      "group": "Sporting",
+      "origin": "Canada",
+      "temperament": "Outgoing, even-tempered, gentle",
+      "exercise": "High",
+      "grooming": "Moderate",
+      "training": "Easy",
+      "goodWith": ["Children", "Families", "Other pets"],
+      "health": ["Obesity", "Joint problems", "Ear infections"],
+      "images": ["🐕", "🦮"],
+      "popularity": 1,
+      "identificationFeatures": {
+        "coat": "Short, dense, weather-resistant",
+        "color": ["Black", "Yellow", "Chocolate"],
+        "ears": "Floppy, close to head",
+        "tail": "Otter-like, thick at base"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Persian Cat",
+      "species": "cat",
+      "description": "Sweet, gentle and quiet with a luxurious long coat.",
+      "characteristics": ["Sweet", "Gentle", "Quiet", "Loyal", "Calm"],
+      "size": "Medium",
+      "weight": {
+        "male": "4-6 kg",
+        "female": "3-5 kg"
+      },
+      "lifeSpan": "12-17 years",
+      "group": "Longhair",
+      "origin": "Iran (Persia)",
+      "temperament": "Sweet, gentle, quiet",
+      "exercise": "Low",
+      "grooming": "High",
+      "training": "Moderate",
+      "goodWith": ["Families", "Seniors", "Quiet households"],
+      "health": ["Breathing issues", "Eye conditions", "Dental problems"],
+      "images": ["🐈", "🐱"],
+      "popularity": 2,
+      "identificationFeatures": {
+        "coat": "Long, thick, luxurious",
+        "face": "Flat, round face with short nose",
+        "eyes": "Large, round, expressive",
+        "body": "Cobby, low to the ground"
+      }
+    },
+    {
+      "id": 5,
+      "name": "German Shepherd",
+      "species": "dog",
+      "description": "Confident, courageous and smart. Excellent working dog.",
+      "characteristics": ["Confident", "Courageous", "Smart", "Loyal", "Protective"],
+      "size": "Large",
+      "weight": {
+        "male": "30-40 kg",
+        "female": "22-32 kg"
+      },
+      "height": {
+        "male": "60-65 cm",
+        "female": "55-60 cm"
+      },
+      "lifeSpan": "9-13 years",
+      "group": "Herding", 
+      "origin": "Germany",
+      "temperament": "Confident, courageous, smart",
+      "exercise": "High",
+      "grooming": "Moderate",
+      "training": "Easy",
+      "goodWith": ["Families", "Active owners", "Working environments"],
+      "health": ["Hip dysplasia", "Digestive issues", "Skin allergies"],
+      "images": ["🐕", "🐺"],
+      "popularity": 2,
+      "identificationFeatures": {
+        "coat": "Double coat, medium length",
+        "color": ["Black and tan", "Sable", "Solid black"],
+        "ears": "Large, erect, pointed",
+        "body": "Athletic, strong, balanced"
+      }
+    }
+  ]
+}
